@@ -1,0 +1,91 @@
+Rehan Kadiwala
+
+Part 3-
+
+What is GitHub? When was it created? Why? By who? What similar platforms exist? Why would you use such a platform?
+Answer- Github is an open source where you can store codes and many other documents. You can share these documents
+with your friend, professor, classmate, or total stranger. 
+Tom Preston- Werner, Chris Wanstrath and PJ Hyett created it on February 8, 2008. 
+Platforms such as SourceForge, Bitbucket, Redmine, Gitlab, Launchpad, Codeplex and many more.  
+It is a platform for developers to share and develop codes where they can use others codes or suggest them 
+improvements in their codes. It is also use to share documents. It is like a social network for developers.
+
+Part 4-
+
+Press enter to submit commands
+
+> git init
+
+$ git status
+
+$ git status
+
+$ git add octocat.txt
+
+$ git status
+
+$ git commit -m "Add cute octocat story"
+
+$ git add '*.txt'
+
+$ git commit -m 'Add all the octocat txt files'
+
+$ git log
+
+$ git remote add origin https://github.com/try-git/try_git.git
+
+$ git pust -u origin master
+
+$ git push -u origin master
+
+$ git pull origin master
+
+$ git diff HEAD
+
+$ git add octofamily/octodog.txt
+
+$ git diff --staged
+
+$ git reset octofamily/octodog.txt
+
+$ git checkout -- octocat.txt
+
+$ git branch clean_up
+
+$ git checkout clean_up
+
+$ git rm '*.txt'
+
+$ git commit -m "Remove all the cats"
+$ git commit -m "Remove all the cats"
+
+$ git commit -m "Remove all the cats"
+
+$ git checkout master
+
+$ git merge clean_up
+
+$ git branch -d clean_up
+
+$ git push
+
+>
+
+ 
+
+
+
+
+Part 5-
+
+•	Repository- Git stores information of a file and manages a project as they change over time. It stores these information in a data structure called Respository.
+•	Commit- Commit records and adds the changes in the local repository.
+•	Push- Push transfers the last commits that are made to a remote server.
+•	Branch- Branch is a pointer that points to the commit. As new commits are made it automatically moves the pointer to the recent commit we made.
+•	Fork- Fork is a copy of repository. You can edit and experiment on the copied files and the original project wont get affected.
+•	Merge- After using fork, if we want to add these changes to the original project then we use merge.
+•	Clone- Clone is a copy of the project and is made available to you locally so you can view or edit the file as per your need.
+•	Pull- Pull automatically mergers the commits you make into the branch without letting you know.
+•	Pull request – Pull request informs other persons the change that you have made in your project so they can review the changes in the file.
+
+
